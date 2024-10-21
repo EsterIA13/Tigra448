@@ -1,0 +1,210 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-padding-top: 100px;
+}
+.header-overlay {
+    position: absolute;
+    top: 0;
+    
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: 10; 
+}
+
+.header-overlay h1, 
+.header-overlay p {
+    margin: 0;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+}
+#fotos{
+    position: relative;
+}
+h1 {
+    font-size: 24px;
+    color: yellowgreen;
+}
+.navbar{
+    height: 100px;
+}
+.navbar-brand{
+    font-family:"Opel Next", sans-serif;
+}
+
+#conatiner-carossel {
+    display: inline;
+    height: 500px;
+}
+
+.carousel-item {
+    display: block;
+    width: 80%;
+    height: 60%;
+}
+
+#minhanavabar {
+    height: 500px;
+}
+
+.d-block {
+    object-fit: cover;
+    height: 500px;
+    width: 800px;
+}
+.veic_titl{
+    font-family: 'NouvelR-Regular', Arial;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    line-height: 1.42857143;
+    font-size: 16px;
+    color: #282828;
+    background-color: white;
+    box-sizing: border-box;
+    position: relative;
+    min-height: 1px;
+    float: left;
+    width: 100%;
+    padding: 50px 0 50px 0;
+    text-align: center;
+}
+
+.font_ligh{
+    font-family: 'NouvelR-Light', Arial;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    box-sizing: border-box;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 42px;
+}
+.info_veic{
+    display: inline-flex;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    line-height: 1.42857143;
+    font-family: 'NouvelR-Regular', Arial;
+    font-size: 16px;
+    color: #282828;
+    box-sizing: border-box;
+    position: relative;
+    min-height: 1px;
+    float: left;
+    width: 100%;
+    padding: 0 50px;
+}
+
+.info_veic img{
+    width: 700px;
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+.container_descricao{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    line-height: 1.42857143;
+    font-size: 16px;
+    color: #282828;
+    box-sizing: border-box;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 50%;
+}
+
+p{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    line-height: 1.42857143;
+    font-family: 'Century Gothic', Arial;
+    font-size: 16px;
+    color: #282828;
+    box-sizing: border-box;
+    margin: 0 0 10px;
+}
+.navbar a:hover:not(span) {
+    border: none;
+    -webkit-box-shadow: inset 0 -.3125rem 0 #0074e8;
+    box-shadow: inset 0 -.3125rem 0 #0074e8;
+    font-weight: 400;
+    text-shadow: 0 .0625rem 0 #ffffff;
+}
+
+a{
+    padding: 1.5625rem 0 1.25rem;
+    margin: 0 .625rem;
+    color: #000;
+    font-size: .625rem;
+    line-height: .625rem;
+    text-align: center;
+    border: none;
+    text-transform: uppercase;
+    -webkit-transition: text-shadow .3s ease-in-out;
+    transition: text-shadow .3s ease-in-out;
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-size: 1.2rem;
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+.btn {
+    font-weight: bold;
+    border-width: 2px;
+}
+
+.btn:hover {
+    background-color: #f8f9fa;
+    color: #000;
+}
+#Cores{
+    margin: 20px;
+}
+#galeria{
+    padding-top: 50px; 
+}
+
+#carImage {
+    width: 700px;
+    height: 400px;
+    transition: opacity 0.5s ease-in-out; 
+}
+
+.fade-out {
+    opacity: 0; 
+}
+
+.fade-in {
+    opacity: 1; 
+}
+
+
+#botao-magenta{
+    background-color: #df0fcd;
+}
+
+.fade-out {
+    opacity: 0;
+}
+
+.fade-in {
+    opacity: 1;
+}
